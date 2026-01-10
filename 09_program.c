@@ -17,7 +17,9 @@ int main() {
         area = sqrt(s*(s-a)*(s-b)*(s-c));
         printf("the area of triangle is %.2f\n",area);
     }
-    else 
+    else {
+        printf("Invalid triangle .The area can not be calculate.\n");
+    }
 
     return 0;
 }
